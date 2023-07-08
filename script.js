@@ -10,18 +10,18 @@ let score = 0
 
 const QUESTIONS = [
     `Kon..`,
-    `Gob..`,
+    `Go..`,
     `Ta..`,
     `Ba..`,
-    `Anj..`
+    `An..`
 ]
 
 const CLUE = [
     `Ci/Tra/Sol`,
-    `Les/Es/Ber`,
+    `Jek/Es/Ber`,
     `S/Ri/U`,
     `U/Tu/Si`,
-    `Ar/Ir/Jay`
+    `Ak/Gka/Jay`
 ]
 
 const userAnswerData = []
@@ -42,7 +42,7 @@ sendButton.addEventListener('click', function() {
             score += 20
         }
     } else if ( init == 1 ) {
-        if ( userAnswerData[1] == 'lok' || userAnswerData[1] == 'goblok') {
+        if ( userAnswerData[1] == 'blok' || userAnswerData[1] == 'goblok') {
             score += 20
         }
     } else if ( init == 2 ) {
@@ -54,7 +54,7 @@ sendButton.addEventListener('click', function() {
             score += 20
         }
     } else if ( init == 4 ) {
-        if ( userAnswerData[4] == 'ing' || userAnswerData[4] == 'anjing') {
+        if ( userAnswerData[4] == 'jing' || userAnswerData[4] == 'anjing') {
             score += 20
         }
         fullContainer.style.display = 'none'
