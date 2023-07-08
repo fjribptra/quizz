@@ -1,0 +1,87 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.c {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ct {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ct h1 {
+    font-size: 50px;
+}
+
+.ct button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background: yellow;
+    font-weight: bold;
+}
+
+.full-container {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.quest {
+    width: 250px;
+    padding: 30px;
+    border: 8px solid #822;
+    background: darkgreen;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.answers {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.answers > * {
+    padding: 5%;
+}
+
+.answers input {
+    width: 100%;
+    border: 2px solid brown;
+}
+
+.answers button {
+    border: none;
+    background: blue;
+    color: white;
+}
