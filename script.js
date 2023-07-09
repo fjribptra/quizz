@@ -60,14 +60,14 @@ sendButton.addEventListener('click', function() {
         fullContainer.style.display = 'none'
 
         document.body.innerHTML = ` <div class="c">
-        <div class="quest">
-            <p>Score :</p>
-            <h1>${score}</h1>
-        </div>
-        <div class="answers">
-            <button class="back" onclick="location.href = 'index.html'">Back</button>
-        </div>
-    </div>`
+                                        <div class="quest">
+                                            <p>Your score :</p>
+                                            <h1>${score}/100</h1>
+                                        </div>
+                                        <div class="answers">
+                                            <button class="back" onclick="location.href = 'index.html'">Back</button>
+                                        </div>
+                                    </div>`
     } 
     
     init++
